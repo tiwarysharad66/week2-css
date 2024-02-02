@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .translate {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        transform: perspective(15px) translateZ(-10px);
+      }
+      .rotate {
+        margin: 200px;
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        transform: rotateZ(30deg);
+      }
+      .scale{
+        margin-left: 200px;
+        border: 2px solid black;
+        height: 200px;
+        width: 200px;
+        transform: perspective(35000px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="translate">heloo</div>
+    <div class="rotate">scale</div>
+    <div class="scale">Scale</div>
+
+  </body>
+</html>

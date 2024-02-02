@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .class {
+        background-image: linear-gradient(to left, green, red);
+        background-image: linear-gradient(to right, green, red);
+        background-image: linear-gradient(to top, green, red);
+        background-image: linear-gradient(to top right, green, white, orange);
+        background-image: linear-gradient(90deg, green, white, orange);
+        background-image: linear-gradient(
+          90deg,
+          rgba(255, 0, 0, 0.5),
+          rgba(0, 255, 0, 0.4)
+        );
+        background-image: linear-gradient(orange , green, white,);
+        border: 2px solid black;
+        height: 200px;
+        width: 100px;
+      }
+      .div2 {
+        margin-top: 10px;
+        border: 3px solid black;
+        height: 200px;
+        width: 200px;
+        background-image: radial-gradient(circle, red, blue, orange);
+        background-image: radial-gradient(circle, red 10%, blue 5%, orange 2%);
+      }
+      .div3 {
+        margin-top: 15px;
+        border: 3px solid black;
+        height: 200px;
+        width: 200px;
+        background: conic-gradient(red, orange, yellow, green, blue);
+        background: conic-gradient(
+          red 6deg,
+          orange 6deg 18deg,
+          yellow 18deg 45deg,
+          green 45deg 110deg,
+          blue 110deg 200deg,
+          purple 200deg
+        );
+        background: conic-gradient(
+          red 6deg,
+          orange 30 deg 18deg,
+          yellow 18deg 45deg,
+          green 10deg 340deg,
+          blue 50deg 300deg,
+          aqua 200deg
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <!-- this is linear gradient -->
+    <div class="class">hello</div>
+    <div class="div2"></div>
+    <!-- this is radial gradient -->
+    <!-- this will be conic gradient -->
+    <div class="div3"></div>
+  </body>
+</html>

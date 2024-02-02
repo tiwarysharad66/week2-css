@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        }
+        div{
+            display: inline-block;
+        }
+        #box1{
+            display: inline-block;
+            position:static;
+            border: 2px solid black;
+
+        }
+        #box2{
+            position: relative;
+            display: inline-block;
+            top: 680px;
+            right: 188px;
+            border: 2px solid rgb(255, 0, 0);
+        }
+        #box3{
+            position: relative;
+            top: 680px;
+            left:825px;
+            border: 2px solid purple;
+    
+        }
+        #box4{
+            position: relative;
+            left: 640px;
+
+            border: 2px solid aqua;
+        }
+        .img {
+            position : absolute;
+            border: 2px solid orangered;
+            top: 170px;
+            left: 500px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="img"><img width="300px" height="300px" src="https://media.istockphoto.com/id/546763388/photo/the-perfect-vantage-point.jpg?s=170667a&w=0&k=20&c=KcEe8bcUUAheYpdzIJ52Tk2N4ZY3OAtFRBjFCqI7Aq8=" alt="image"><figcaption>PhotoGraphy</figcaption></div>
+<div id="box1">Lorem ipsum dolor sit amet.</div>
+<div id="box2">Lorem ipsum dolor sit amet.</div>
+<div id="box3">Lorem ipsum dolor sit amet.</div>
+<div id="box4">Lorem ipsum dolor sit amet.</div>
+
+    
+</body>
+</html>

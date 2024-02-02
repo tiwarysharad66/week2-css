@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#input1,.input2{
+    display: inline-block;
+
+}
+.inputs{
+    text-align: center;
+}
+#class{
+    border: 2px solid black;
+width: 770px;
+height: 700px;
+position: absolute;
+left: 400px;
+top: 50px;
+}
+h1{
+    padding: 30px;
+    text-align: center;
+}
+.input1{
+    padding-left: 10px;
+    margin: 20px;
+}
+.input2{
+    padding-right: 40px;
+      margin: 20px;
+}
+p{
+    position: relative;
+    right: 230px;
+}
+.address{
+    margin: 10px;
+    position:relative;
+   left: 30px;
+}
+.input3{
+    margin: 20px;
+    position: relative;
+    left: 130px;
+
+}
+.input4{
+    margin: 10px;
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+.date{
+    display: inline-block;
+border: 2px solid black;
+position: relative;
+padding: 10px;
+top: 15px;
+}
+.resume{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 50px;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+    bottom: 95px;
+}
+#headingresume{
+    position:relative;
+    left: 250px;
+    bottom: 50px;
+}
+#dateselect{
+    position: relative;
+    top: 10px;
+}
+.button1{
+   position: absolute;
+   text-align: center;
+left: 500px;
+bottom: 100px;
+    padding: 10px;
+    transition-duration: 0.9ms;
+}
+.button1 {
+    box-shadow: 0 8px 16px 5px red, 0 6px 20px 5px yellow;
+  }
+  .button1:hover {
+    box-shadow: 0 12px 16px 20px red, 0 17px 50px 20px yellow;
+  }
+  #class{
+    border-radius: 10%;
+    background-image: linear-gradient(orange,white,green);
+  }
